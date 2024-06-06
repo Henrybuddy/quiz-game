@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="./assets/css/fontawesome/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Score</title>
+</head>
+
+<style>
+    .card{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    z-index: 1000;
+    font-size: 22px;
+    font-weight: 800;
+    border: 5px solid navy;
+    border-radius: 10px;
+    margin-top: 10%;
+  }
+  body{
+    position: relative;
+    background-color: #000;
+  }
+  .game{
+    filter: blur(3px);
+  }
+
+</style>
+
+<body>
+    <div class="p-5 card col-md-5
+    mx-auto ModalHide bg-light shadow-lg 
+    text-center" id="dmodal">
+    <h1 class="nameDiv" id="nameDiv"></h1>
+   <h1 id="scoreDiv" class="text-black">Your score is </h1>
+   </div>
+
+   <script src="./score.js"></script>
+</body>
+</html>

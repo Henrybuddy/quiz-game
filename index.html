@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online safety quiz</title>
+    <link rel="icon" href="./assets/images/logo/logo.png" />
+    <link
+    href="https://api.fontshare.com/v2/css?f[]=neco@400&f[]=pally@500&display=swap"
+    rel="stylesheet"
+  />
+    <link
+      rel="stylesheet"
+      href="./assets/css/fontawesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+  </head>
+
+  <body>
+    
+    <div class="content container-fluid wrapper">
+       <!-- <div class="nameArea text-white">Hello</div> -->
+       <div class="name text-white position-fixed" id="name"></div>
+        <div class="col-md-7 mx-auto">
+       <div class="logo_area">
+          <a href="index-2.html">
+            <img src="assets/images/logo/logo.png" alt="image_not_found" />
+          </a>
+        </div>
+
+        <!-- <h1 id="Time" class="text-white text-center">00:00</h1> -->
+        <!-- Step-progress-bar -->
+        <div class="step_progress_bar mb-3">
+          <div class="progress rounded-pill">
+            <span><i class="far fa-clock"></i></span>
+            <div class="progress-bar mx-2 rounded-pill" id="progress">
+              <p class="my-auto" id="range">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="question_number text-capitalize text-center">
+            <span class="text-white text-center" id="current">question 1 / 4 </span>
+          </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 mx-auto">
+            <div id="result" class="quiz-body content_box pb-5 ps-5 position-relative">
+              <form name="quizForm" onSubmit="">
+                <fieldset class="form-group ">
+
+                    <div class="question_title py-3">
+                        <h1 class="text-white" id="question">
+                          <!-- What is not one Principle Taught in yoga? -->
+                        </h1>
+                      </div>
+
+                  <!-- <h4><span id="qid">1.</span> <span id="question"></span>Lorem ipsum dolor sit amet.</h4> -->
+                  <div
+                    class="option-block-container"
+                    id="question-options"
+                  >
+                
+                  <div class=' form_items text-center'>" 
+
+                    <label class='step_1 animate__animated animate__fadeInRight animate_50ms position-relative rounded-pill text-start text-white active lab' id='optionA'>
+                   
+                       <span  class='mx-3 ' >
+                         Lorem ipsum dolor sit amet.
+                    </span>
+                  </label>"
+                    <label class='step_1 animate__animated animate__fadeInRight animate_50ms position-relative rounded-pill text-start text-white active lab' id='optionB'>
+                   
+                       <span  class='mx-3 ' >
+                         Lorem ipsum dolor sit amet.
+                    </span>
+                  </label>"
+                    <label class='step_1 animate__animated animate__fadeInRight animate_50ms position-relative rounded-pill text-start text-white active lab' id='optionC'>
+                   
+                       <span  class='mx-3 ' >
+                         Lorem ipsum dolor sit amet.
+                    </span>
+                  </label>"
+                    <label class='step_1 animate__animated animate__fadeInRight animate_50ms position-relative rounded-pill text-start text-white active lab '  id='optionD'>
+                   
+                       <span  >
+                         Lorem ipsum dolor sit amet.
+                    </span>
+                  </label>"
+                   
+                
+                </div>
+
+
+                  <!-- End of option block -->
+                </fieldset>
+                <div class="form_btn d-flex mt-4 ">
+                <!-- <button name="previous" id="previous" class=" btn w-50 prev_btn">
+                  Previous
+                </button> -->
+                &nbsp;
+                <button name="next" id="next" class="btn next_btn w-50 py-3">
+                  Next
+                </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ENd of container fluid -->
+    </div>
+<script src="./assets/css/bootstrap/js/jquery.min.js"></script>
+<script src="./assets/css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="login.js"></script> -->
+  </body>
+</html>
